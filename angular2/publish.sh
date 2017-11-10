@@ -13,6 +13,8 @@ npm run build
 
 generatedNpmVersion="$(npm version $version)"
 
+cd ./dist
+
 npm publish --access public
 
 git tag "angular4-${generatedNpmVersion}"
