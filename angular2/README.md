@@ -1,11 +1,11 @@
-# Angular 2 Input Mask
+# Angular 4 Input Mask
 
 ## Getting started
 
 First, install it.
 
 ```bash
-npm i angular2-text-mask --save
+npm i @saritasa/ngx-text-mask --save
 ```
 
 Then, import it into your `@NgModule`:
@@ -13,7 +13,7 @@ Then, import it into your `@NgModule`:
 ```typescript
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TextMaskModule } from 'angular2-text-mask';
+import { TextMaskModule } from '@saritasa/ngx-text-mask';
 
 @NgModule({
   imports: [

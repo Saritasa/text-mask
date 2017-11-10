@@ -15,4 +15,4 @@ generatedNpmVersion="$(npm version $version)"
 
 npm publish --access public
 
-git tag "angular2-${generatedNpmVersion}"
+git tag "angular4-${generatedNpmVersion}"
